@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+authors:
+- family-names: "Aly"
+  given-names: "Ahmed"
+  orcid: "https://orcid.org/0000−0003−1639−5150"
+- family-names: "Gabor"
+  given-names: "Adriana Felicia"
+  orcid: "https://orcid.org/0000−0003−4327−8048"
+- family-names: "Sleptchenko"
+  given-names: "Andrei"
+  orcid: "https://orcid.org/0000-0001-7188-5692"
+title: "Instances for Delivery Territory Design Problem"
+version: 0.1
+date-released: 2023-09-01
+url: "https://github.com/dipsav/TerritoryDesign"
