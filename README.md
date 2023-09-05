@@ -12,7 +12,7 @@ Each node contains 3 node attributes:
 3. workload: Workload in a given node where $workload=[15,100]$
 
 ### 2.2. G Graph Instances
-These graph types are grid-like graphs generated using an $NxN$ grid and had nodes systematically removed while maintaining connectivity. 
+These graph types are grid-like graphs generated using an $N \times N$ grid and had nodes systematically removed while maintaining connectivity. 
 
 Each node contains 3 node attributes:
 1. n_customers: Number of customers in a given node where $n_{customers}=[4,20]$
