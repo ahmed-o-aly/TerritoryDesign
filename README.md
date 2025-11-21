@@ -3,7 +3,7 @@
 Materials supporting the open-access paper on stochastic Variable Neighborhood Search for the DTDP (https://doi.org/10.1016/j.cor.2024.106756). The repository provides benchmark instances, algorithm implementations, and experiment outputs so you can reuse or extend the study.
 
 ## Contents
-- `CTDPAlgorithms.py` — Python implementation of the core heuristics (construction, local search, BVNS, path relinking).
+- `DTDPAlgorithms.py` — Python implementation of the core heuristics (construction, local search, BVNS, path relinking).
 - `TGraphInstances/` — 30 planar benchmark graphs generated via Delaunay triangulation (10 each with 500, 600, 700 nodes).
 - `GGraphInstances/newGeneratedInstances/` — 90 grid-derived graphs (30 each in `27x27Graphs`, `30x30Graphs`, `33x33Graphs`).
 - `generateGraphs.ipynb` — notebook used to generate new T and G instances.
@@ -42,7 +42,7 @@ print(len(G), "nodes", len(G.edges), "edges")
 
 2) Run the BVNS heuristic:
 ```python
-from CTDPAlgorithms import TerritoryDesignProblem, BVNS
+from DTDPAlgorithms import TerritoryDesignProblem, BVNS
 
 tdp = TerritoryDesignProblem(
     graph_input=G,
