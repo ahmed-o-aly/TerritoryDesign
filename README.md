@@ -95,5 +95,5 @@ Open `generateGraphs.ipynb` and run the notebook cells:
 - `MIPExperiments*`: mixed-integer programming baselines.
 
 ## Cite
-If you use the instances or code, cite the paper above and/or `CITATION.cff`:
+If you use the instances or code, cite the paper above and `CITATION.cff`:
 - Aly, A., Gabor, A. F., Sleptchenko, A. (2024). Delivery Territory Design Problem. Computers & Operations Research. https://doi.org/10.1016/j.cor.2024.106756
